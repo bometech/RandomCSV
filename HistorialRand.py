@@ -30,8 +30,8 @@ print (filename)
 headers = ['F/H', 'VFD', 'F', 'P', 'AMP_M1', 'AMP_M2', 'R1', 'R2', 'G1', 'G2', 'UM1', 'F', 'P', 'AMP_M1', 'AMP_M2', 'R1', 'R2', 'G1', 'G2', 'UM2', 'NIVEL DE LECHE']
 
 # Horas de inicio y finalización del programa
-start_hour = 9
-end_hour = 17
+start_hour = 14
+end_hour = 16
 
 # Función para escribir el número aleatorio en el archivo CSV
 async def write_random_num():
