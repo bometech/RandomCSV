@@ -21,7 +21,7 @@ if os.path.isdir(directorio): #ESTA COMPROBACION NOS AYUDA A QUE SI EL PROGRAMA 
 
 else:
     os.mkdir(directorio)
-    print('La carpeta no existia.'); # EN CASO DE NO EXISTIR LA CREARA.
+    print('La carpeta no existia. Corriendo programa...'); # EN CASO DE NO EXISTIR LA CREARA.
 # Nombre del archivo CSV a crear
 dirfilename = directorio + '/' + filename #AHORA VIENE LA CREACION DEL ARCHIVO. DENTRO DE LA CARPETA CREADA.
 print (filename)
